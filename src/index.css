@@ -1,0 +1,287 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Objective Font Family */
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Thin-Italic.woff2') format('woff2');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Light-Italic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Medium-Italic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Bold-Italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-ExtraBold-Italic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Black-Italic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Super.woff2') format('woff2');
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('/fonts/Objective-Super-Italic.woff2') format('woff2');
+  font-weight: 950;
+  font-style: italic;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-black text-foreground;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(155, 135, 245, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.wave-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='none' stroke='%239b87f5' stroke-width='1' d='M0,50 C25,30 75,70 100,50 C125,30 175,70 200,50' stroke-dasharray='1' stroke-dashoffset='0'%3E%3C/path%3E%3C/svg%3E");
+  opacity: 0.5;
+}
+
+.purple-glow {
+  position: relative;
+}
+
+.purple-glow::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -15%;
+  width: 80%;
+  height: 200%;
+  background: radial-gradient(ellipse at center, rgba(155, 135, 245, 0.3) 0%, rgba(0, 0, 0, 0) 70%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.footer-wave {
+  background: linear-gradient(180deg, transparent 0%, rgba(155, 135, 245, 0.2) 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animação contínua para o carousel de parceiros */
+@keyframes scroll-continuous {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.animate-scroll-continuous {
+  animation: scroll-continuous 30s linear infinite;
+}
+
+.animate-scroll-continuous:hover {
+  animation-play-state: paused;
+}
+
+
+
+.alturatopoblog{
+  height: 75vh;
+}
+
+.marginbotaoblog{margin-top: 10px;}
+.largurainternablog{width: 100%;}
+.bordrradius0{border-radius: 0 !important; border-top-right-radius:0 ; border-bottom-right-radius: 0;}
+.textosinternoblog p{margin-bottom: 15px;}
+.marginmarcadosblog{margin-bottom: 20px;}
+
+
+
+@keyframes scroll-continuous {
+  0%   { transform: translate3d(0,0,0); }
+  100% { transform: translate3d(-50%,0,0); } /* desloca 1 trilho exato */
+}
+
+.animate-scroll-continuous {
+  animation: scroll-continuous 20s linear infinite;
+  will-change: transform;
+}
+
+@media(max-width:767px){
+.emailmobile{font-size: 12px;}
+
+}
