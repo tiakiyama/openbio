@@ -104,7 +104,6 @@ const Privacy = () => {
         </div>
       </section> */}
 
-
       <section className="pb-16 px-5">
         <div className="max-w-6xl mx-auto">
           <div className="bg-white rounded-lg p-8 shadow-lg">
@@ -152,6 +151,51 @@ const Privacy = () => {
               <div className="flex flex-col sm:flex-row items-center gap-6 mt-10">
                 <img className="max-w-[160px] sm:max-w-[200px]" src="/lovable-uploads/ISO-9001_col.jpg"></img>
                 <img className="max-w-[160px] sm:max-w-[200px]" src="/lovable-uploads/selo02.jpg"></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-16 px-5">
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-white rounded-lg p-8 shadow-lg">
+            <h2 className="text-black font-bold text-2xl mb-2">Politica Antissuborno e Anticorrupcao</h2>
+
+            <div className="space-y-6">
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  A Politica Antissuborno, Anticorrupcao e de Brindes e Presentes do Grupo Akiyama, publicada em dezembro de 2025, define diretrizes para prevenir suborno e corrupcao em todas as empresas do grupo, reforcando a conformidade com a Lei Anticorrupcao, o FCPA e demais normas aplicaveis.
+                </p>
+              </div>
+
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  O documento estabelece transparencia nas relacoes comerciais, especialmente com agentes publicos, preve treinamento continuo, canal seguro de denuncias e responsabilizacao de colaboradores e parceiros.
+                </p>
+              </div>
+
+              <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
+                <li>
+                  Proibicao absoluta de oferecer, prometer, dar ou aceitar suborno, pagamentos de facilitacao, vantagens indevidas ou beneficios pessoais.
+                </li>
+                <li>
+                  Brindes e presentes so podem ocorrer em carater simbolico, ate R$ 300,00, ou ate R$ 100,00 em relacoes com agentes publicos.
+                </li>
+                <li>
+                  Toda oferta ou recebimento exige aprovacao previa da Alta Direcao, registro formal e esta sujeito a sancoes disciplinares em caso de violacao.
+                </li>
+              </ul>
+
+              <div className="pt-2">
+                <Button
+                  className="w-full sm:w-auto"
+                  onClick={() => {
+                    window.open('/politica-antissuborno.pdf', '_blank', 'noopener,noreferrer');
+                  }}
+                >
+                  Baixar arquivo completo
+                </Button>
               </div>
             </div>
           </div>
