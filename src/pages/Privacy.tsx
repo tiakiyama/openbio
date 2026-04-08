@@ -48,7 +48,7 @@ const Privacy = () => {
 
             <div className="relative z-10">
               <h2 className="text-white font-bold text-2xl mb-6">
-                Conheça nossas Politicas
+                Conheça nossas Políticas
               </h2>
               
 
@@ -160,30 +160,30 @@ const Privacy = () => {
       <section className="pb-16 px-5">
         <div className="max-w-6xl mx-auto">
           <div className="bg-white rounded-lg p-8 shadow-lg">
-            <h2 className="text-black font-bold text-2xl mb-2">Politica Antissuborno e Anticorrupcao</h2>
+            <h2 className="text-black font-bold text-2xl mb-2">Política Antissuborno e Anticorrupção</h2>
 
             <div className="space-y-6">
               <div>
                 <p className="text-gray-700 leading-relaxed">
-                  A Politica Antissuborno, Anticorrupcao e de Brindes e Presentes do Grupo Akiyama, publicada em dezembro de 2025, define diretrizes para prevenir suborno e corrupcao em todas as empresas do grupo, reforcando a conformidade com a Lei Anticorrupcao, o FCPA e demais normas aplicaveis.
+                  A Política Antissuborno, Anticorrupção e de Brindes e Presentes do Grupo Akiyama, publicada em dezembro de 2025, define diretrizes para prevenir suborno e corrupção em todas as empresas do grupo, reforçando a conformidade com a Lei Anticorrupção, o FCPA e demais normas aplicáveis.
                 </p>
               </div>
 
               <div>
                 <p className="text-gray-700 leading-relaxed">
-                  O documento estabelece transparencia nas relacoes comerciais, especialmente com agentes publicos, preve treinamento continuo, canal seguro de denuncias e responsabilizacao de colaboradores e parceiros.
+                  O documento estabelece transparência nas relações comerciais, especialmente com agentes públicos, prevê treinamento contínuo, canal seguro de denúncias e responsabilização de colaboradores e parceiros.
                 </p>
               </div>
 
               <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
                 <li>
-                  Proibicao absoluta de oferecer, prometer, dar ou aceitar suborno, pagamentos de facilitacao, vantagens indevidas ou beneficios pessoais.
+                  Proibição absoluta de oferecer, prometer, dar ou aceitar suborno, pagamentos de facilitação, vantagens indevidas ou benefícios pessoais.
                 </li>
                 <li>
-                  Brindes e presentes so podem ocorrer em carater simbolico, ate R$ 300,00, ou ate R$ 100,00 em relacoes com agentes publicos.
+                  Brindes e presentes só podem ocorrer em caráter simbólico, até R$ 300,00, ou até R$ 100,00 em relações com agentes públicos.
                 </li>
                 <li>
-                  Toda oferta ou recebimento exige aprovacao previa da Alta Direcao, registro formal e esta sujeito a sancoes disciplinares em caso de violacao.
+                  Toda oferta ou recebimento exige aprovação prévia da Alta Direção, registro formal e está sujeito a sanções disciplinares em caso de violação.
                 </li>
               </ul>
 
