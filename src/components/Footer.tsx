@@ -36,7 +36,6 @@ export const Footer = () => {
           </div>
         </div>
 
-        {/* Contato e Atendimento */}
         <div className="mt-10 pt-10 border-t border-gray-800 lg:mt-12 lg:pt-12">
           <h3 className="font-bold mb-6 lg:text-lg">Fale Conosco</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
@@ -80,12 +79,7 @@ export const Footer = () => {
               </div>
               <div>
                 <p className="text-xs text-gray-500 mb-1">Portal de Atendimento</p>
-                
-                  href="https://portal-cliente.akiyamaid.com.br/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-gray-300 hover:text-white transition-colors"
-                >
+                <a href="https://portal-cliente.akiyamaid.com.br/" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-300 hover:text-white transition-colors">
                   Acessar portal
                 </a>
               </div>
