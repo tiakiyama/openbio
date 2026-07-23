@@ -376,7 +376,19 @@ const Index = () => {
   </div>
 </section>
 
-
+{/* Seção Financiadores */}
+      <section className="w-full bg-black py-8 lg:py-12">
+        <div className="mx-auto w-full max-w-7xl px-5">
+          <AnimatedSection animation="fadeIn">
+            <img
+              src="/lovable-uploads/banner-financiadores.png"
+              alt="Empreendimento financiado pelo BRDE, com recursos da Finep e BNDES"
+              className="w-full h-auto rounded-2xl object-cover"
+            />
+          </AnimatedSection>
+        </div>
+      </section>
+      
       <section
         id="contato"
         className="relative py-32 px-5 lg:py-40 bg-cover bg-center bg-no-repeat scroll-mt-20"
