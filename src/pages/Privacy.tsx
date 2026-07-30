@@ -85,7 +85,7 @@ const Privacy = () => {
                 <Button
                   className="w-full sm:w-auto"
                   onClick={() => {
-                    window.open('/politica-qualidade.pdf', '_blank', 'noopener,noreferrer');
+                    window.open('/lovable-uploads/PO-042-05-Politica-da-Qualidade-Grupo-Akiyama.pdf', '_blank', 'noopener,noreferrer');
                   }}
                 >
                   Acessar política completa
@@ -119,7 +119,7 @@ const Privacy = () => {
                 <Button
                   className="w-full sm:w-auto"
                   onClick={() => {
-                    window.open('/politica-antissuborno.pdf', '_blank', 'noopener,noreferrer');
+                    window.open('/lovable-uploads/PO-036-00-Politica-Antissuborno-Anticorrupcao-e-de-Brindes-e-Presentes-do-Grupo-Akiyama.pdf', '_blank', 'noopener,noreferrer');
                   }}
                 >
                   Acessar política completa
@@ -157,7 +157,7 @@ const Privacy = () => {
                 <Button
                   className="w-full sm:w-auto"
                   onClick={() => {
-                    window.open('/politica-privacidade.pdf', '_blank', 'noopener,noreferrer');
+                    window.open('/lovable-uploads/PO-028-01-Politica-de-Privacidade-do-Grupo-Akiyama-Sites.pdf', '_blank', 'noopener,noreferrer');
                   }}
                 >
                   Acessar política completa
