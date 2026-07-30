@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { NavBar } from '@/components/NavBar';
 import { Button } from '@/components/Button';
@@ -58,134 +57,63 @@ const Privacy = () => {
         </div>
       </section>
 
-      {/* Privacy Policies */}
-      {/* <section className="pb-16 px-5">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-lg p-8 shadow-lg">
-            <h2 className="text-black font-bold text-2xl mb-8">Política de Privacidade</h2>
-
-            <div className="space-y-6">
-              <div>
-                <h3 className="font-bold text-lg mb-3">1. Coleta de Dados</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Coletamos apenas os dados necessários para fornecer nossos serviços biométricos, sempre com seu consentimento explícito e em conformidade com a LGPD.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="font-bold text-lg mb-3">2. Uso das Informações</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Suas informações são utilizadas exclusivamente para identificação e autenticação, nunca sendo compartilhadas com terceiros sem sua autorização.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="font-bold text-lg mb-3">3. Segurança dos Dados</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Implementamos as mais avançadas tecnologias de criptografia e segurança para proteger seus dados biométricos contra acessos não autorizados.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="font-bold text-lg mb-3">4. Seus Direitos</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Você tem o direito de acessar, corrigir, excluir ou solicitar a portabilidade de seus dados a qualquer momento, conforme estabelecido pela LGPD.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="font-bold text-lg mb-3">5. Contato</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Para exercer seus direitos ou esclarecer dúvidas sobre nossa política de privacidade, entre em contato através do email: privacidade@grupoadvance.com.br
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
+      {/* Política da Qualidade */}
       <section className="pb-16 px-5">
         <div className="max-w-6xl mx-auto">
           <div className="bg-white rounded-lg p-8 shadow-lg">
-            <h2 className="text-black font-bold text-2xl mb-2">Política da Qualidade</h2>
+            <h2 className="text-black font-bold text-2xl mb-6">Política da Qualidade do Grupo Akiyama</h2>
 
             <div className="space-y-6">
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                  A Alta Direção estabeleceu, implementou, mantém e comunica uma Política da Qualidade atendendo o estabelecido no requisito 5.2 da NBR ISO 9001:2015: 
-                </p>
-              </div>
+              <p className="text-gray-700 leading-relaxed">
+                A Política da Qualidade do Grupo Akiyama estabelece os princípios, diretrizes e compromissos que orientam suas atividades com foco no atendimento aos requisitos aplicáveis, na satisfação dos clientes e demais partes interessadas, na melhoria contínua dos processos e no fortalecimento do Sistema de Gestão da Qualidade.
+              </p>
 
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                 A AKIYAMA, comprometida com os seus clientes, seus parceiros de negócios e seus colaboradores, tem sua Política da Qualidade (rev.4) nos seguintes princípios, visando atender às necessidades de suas partes interessadas: 
-<br></br><br></br>
-                </p>
-                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-                  <li>
-                    Fornecer produtos e soluções multibiométricas, investindo constantemente em novas tecnologias; 
-                  </li>
-                  <li>
-                    Gerenciar os riscos do negócio e dos processos internos, compartilhando as melhores práticas de gestão; 
-                  </li>
-                  <li>
-                    Garantir o crescimento sustentável do negócio e a satisfação dos clientes; 
-                  </li>
-                  <li>
-                    Fomentar o desenvolvimento dos seus colaboradores; 
-                  </li>
-                  <li>
-                    Aprimorar continuamente os seus processos.
-                  </li>
-                </ul>
-              </div>
+              <p className="text-gray-700 leading-relaxed">
+                A política abrange todas as empresas do grupo, seus processos, produtos, serviços, colaboradores e, quando aplicável, terceiros que atuem em seu nome. Seu propósito é assegurar que as soluções oferecidas sejam desenvolvidas e disponibilizadas com qualidade, confiabilidade, inovação, eficiência e alinhamento estratégico.
+              </p>
 
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                  <b>Obs:</b> A Política da Qualidade da AKIYAMA, tem o seu controle vinculado ao Manual da Qualidade.
-                </p>
-              </div>
+              <p className="text-gray-700 leading-relaxed">
+                Entre seus fundamentos estão o atendimento às exigências legais e regulatórias, o foco no cliente, a confiabilidade dos produtos e serviços, o investimento em inovação e tecnologia, a gestão de riscos e oportunidades, o desenvolvimento de pessoas e a busca permanente pela melhoria contínua e pelo crescimento sustentável do negócio.
+              </p>
 
-              
-
-              <div className="flex flex-col sm:flex-row items-center gap-6 mt-10">
+              <div className="flex flex-col sm:flex-row items-center gap-6">
                 <img className="max-w-[160px] sm:max-w-[200px]" src="/lovable-uploads/ISO-9001_col.jpg"></img>
                 <img className="max-w-[160px] sm:max-w-[200px]" src="/lovable-uploads/selo02.jpg"></img>
+              </div>
+
+              <div className="pt-2">
+                <Button
+                  className="w-full sm:w-auto"
+                  onClick={() => {
+                    window.open('/politica-qualidade.pdf', '_blank', 'noopener,noreferrer');
+                  }}
+                >
+                  Acessar política completa
+                </Button>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Política Antissuborno, Anticorrupção e de Brindes e Presentes */}
       <section className="pb-16 px-5">
         <div className="max-w-6xl mx-auto">
           <div className="bg-white rounded-lg p-8 shadow-lg">
-            <h2 className="text-black font-bold text-2xl mb-2">Política Antissuborno e Anticorrupção</h2>
+            <h2 className="text-black font-bold text-2xl mb-6">Política Antissuborno, Anticorrupção e de Brindes e Presentes do Grupo Akiyama</h2>
 
             <div className="space-y-6">
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                  A Política Antissuborno, Anticorrupção e de Brindes e Presentes do Grupo Akiyama, publicada em dezembro de 2025, define diretrizes para prevenir suborno e corrupção em todas as empresas do grupo, reforçando a conformidade com a Lei Anticorrupção, o FCPA e demais normas aplicáveis.
-                </p>
-              </div>
+              <p className="text-gray-700 leading-relaxed">
+                O Grupo Akiyama adota diretrizes para prevenir e combater práticas de suborno e corrupção em todas as suas operações, reforçando seu compromisso com a ética, a integridade, a transparência e o cumprimento da legislação aplicável.
+              </p>
 
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                  O documento estabelece transparência nas relações comerciais, especialmente com agentes públicos, prevê treinamento contínuo, canal seguro de denúncias e responsabilização de colaboradores e parceiros.
-                </p>
-              </div>
+              <p className="text-gray-700 leading-relaxed">
+                A política estabelece regras para colaboradores, empresas do grupo e parceiros de negócio, com orientações sobre conduta ética nas relações comerciais, especialmente nas interações com agentes públicos. Também define critérios para oferta e recebimento de brindes e presentes, de forma a evitar conflitos de interesse, vantagens indevidas e riscos à integridade das decisões corporativas.
+              </p>
 
-              <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-                <li>
-                  Proibição absoluta de oferecer, prometer, dar ou aceitar suborno, pagamentos de facilitação, vantagens indevidas ou benefícios pessoais.
-                </li>
-                <li>
-                  Brindes e presentes só podem ocorrer em caráter simbólico, até R$ 300,00, ou até R$ 100,00 em relações com agentes públicos.
-                </li>
-                <li>
-                  Toda oferta ou recebimento exige aprovação prévia da Alta Direção, registro formal e está sujeito a sanções disciplinares em caso de violação.
-                </li>
-              </ul>
+              <p className="text-gray-700 leading-relaxed">
+                Entre os principais pontos, destacam-se a proibição de qualquer forma de suborno, a exigência de transparência e registro das práticas relacionadas a brindes e presentes, a realização de treinamentos periódicos, a disponibilização de canal seguro para denúncias e a aplicação de medidas disciplinares em caso de descumprimento.
+              </p>
 
               <div className="pt-2">
                 <Button
@@ -194,7 +122,7 @@ const Privacy = () => {
                     window.open('/politica-antissuborno.pdf', '_blank', 'noopener,noreferrer');
                   }}
                 >
-                  Baixar arquivo completo
+                  Acessar política completa
                 </Button>
               </div>
             </div>
@@ -202,116 +130,39 @@ const Privacy = () => {
         </div>
       </section>
 
+      {/* Política de Privacidade */}
       <section className="pb-16 px-5">
         <div className="max-w-6xl mx-auto">
           <div className="bg-white rounded-lg p-8 shadow-lg">
-            <h2 className="text-black font-bold text-2xl mb-2">Política de Privacidade</h2>
+            <h2 className="text-black font-bold text-2xl mb-6">Política de Privacidade do Grupo Akiyama (Sites)</h2>
 
             <div className="space-y-6">
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                  O Grupo Akiyama valoriza sua privacidade e segue as leis aplicáveis para proteger seus dados pessoais. Este documento explica como coletamos, utilizamos e protegemos suas informações durante o uso do nosso site.
-                </p>
+              <p className="text-gray-700 leading-relaxed">
+                O Grupo Akiyama está comprometido com a proteção da privacidade e com o tratamento responsável dos dados pessoais, em conformidade com a legislação aplicável. Esta política descreve como as informações coletadas durante a navegação em seus sites são utilizadas, protegidas e gerenciadas.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed">
+                Durante o uso do site, podem ser coletados dados de navegação por meio de cookies e ferramentas de análise, como endereço de IP, tipo de navegador, dispositivo utilizado, páginas acessadas e preferências de idioma. Essas informações são utilizadas para melhorar a experiência do usuário, analisar o desempenho do site e aprimorar conteúdos e funcionalidades, sem finalidade de identificação direta ou comercialização de dados.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed">
+                A política também reforça os princípios de privacidade adotados pelo Grupo Akiyama, incluindo finalidade, necessidade, adequação, transparência, segurança, prevenção e responsabilização. Além disso, estabelece diretrizes para segurança da informação, compartilhamento com terceiros, descarte seguro de dados e gestão de incidentes envolvendo informações pessoais.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed">
+                Os usuários podem gerenciar cookies em seus navegadores e exercer seus direitos relacionados à privacidade por meio dos canais disponibilizados pela empresa. O Grupo Akiyama mantém medidas técnicas e administrativas de proteção e conta com estrutura específica para governança e atendimento de questões relacionadas à privacidade de dados.
+              </p>
+
+              <div className="pt-2">
+                <Button
+                  className="w-full sm:w-auto"
+                  onClick={() => {
+                    window.open('/politica-privacidade.pdf', '_blank', 'noopener,noreferrer');
+                  }}
+                >
+                  Acessar política completa
+                </Button>
               </div>
-
-
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                  A Política se aplica a todas as empresas abaixo expressas:
-                </p>
-                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-                  <li>
-                    a) <b>AKIYAMA S.A. – INDÚSTRIA E COMÉRCIO DE EQUIPAMENTOS ELETRÔNICOS E SISTEMAS S.A (OpenBio)</b> – CNPJ 02.688.100/0001-88 e Filial – CNPJ 02.688.100/0004-20;
-                  </li>
-                  <li>
-                    b) <b>NAX ADMINISTRAÇÃO DE BENS E PARTICIPAÇÕES LTDA</b> – CNPJ 17.809.418/0001-47;
-                  </li>
-                  <li>
-                    c) <b>NATOSAFE TECNOLOGIA DA INFORMACAO S/A</b> – CNPJ 17.908.486/0001-63;
-                  </li>
-                  <li>
-                    d) <b>NEOYAMA INDÚSTRIA E COMÉRCIO DE ELETROELETRÔNICOS LTDA</b> – CNPJ 15.806.916/0001-00;
-                  </li>
-                  <li>
-                    e) <b>ANTHEUS-TECNOLOGIA LTDA</b> – CNPJ 01.167.328/0001-60.
-                  </li>
-                </ul>
-              </div>
-
-              <h2 className="text-black font-bold text-2xl mb-8">1. Coleta e Uso de Dados</h2>
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                  Ao acessar nosso site, coletamos informações automaticamente por meio de cookies, como:
-                </p>
-                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-                  <li>Endereço de IP</li>
-                  <li>Tipo de navegador e dispositivo</li>
-                  <li>Páginas visitadas e tempo de navegação</li>
-                  <li>Dados demográficos gerais (como idioma)</li>
-                </ul>
-                <br></br>
-                <p className="text-gray-700 leading-relaxed">
-                  Esses dados são utilizados exclusivamente para:
-                </p>
-                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-                  <li>Melhorar sua experiência no site.</li>
-                  <li>Analisar comportamento de navegação com ferramentas como o Google Analytics.</li>
-                  <li>Otimizar nosso conteúdo e design. Não usamos os dados para identificação direta e nunca compartilhamos ou vendemos suas informações a terceiros.</li>
-                </ul>
-            
-              </div>
-
-              <h2 className="text-black font-bold text-2xl mb-8">2. Privacidade e Segurança</h2>
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                  Adotamos medidas técnicas e administrativas para proteger as informações coletadas contra acessos não autorizados, alterações ou divulgações indevidas. Seus dados são tratados com confidencialidade e utilizados apenas para os fins descritos nesta política.
-                </p>
-              </div>
-
-              <h2 className="text-black font-bold text-2xl mb-8">3. Uso de Cookies</h2>
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                  Cookies são arquivos armazenados em seu navegador que ajudam a personalizar sua navegação. Utilizamos cookies para:
-                </p>
-                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-                  <li>Identificar preferências de navegação.</li>
-                  <li>Monitorar o desempenho do site.</li>
-                </ul>
-                <br></br>
-                <p className="text-gray-700 leading-relaxed">
-                  Você pode gerenciar ou desativar os cookies em seu navegador, embora isso possa impactar algumas funcionalidades do site.
-                </p>
-              </div>
-
-              <h2 className="text-black font-bold text-2xl mb-8">4. Seus Direitos</h2>
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                  Você pode:
-                </p>
-                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-                  <li>Limitar ou bloquear o uso de cookies nas configurações do navegador.</li>
-                  <li>Solicitar correções ou exclusão de informações pessoais enviando um e-mail para nós.</li>
-                </ul>
-              </div>
-
-              <h2 className="text-black font-bold text-2xl mb-8">5. Alterações na Política</h2>
-              <div>
-                <p className="text-gray-700 leading-relaxed">
-                  Esta política pode ser atualizada periodicamente para refletir melhorias ou mudanças legais. A versão mais recente estará sempre disponível nesta página.
-                </p>
-              </div>
-
-              <h2 className="text-black font-bold text-2xl mb-8">6. Contato</h2>
-              <div>
-                 <p className="text-gray-700 leading-relaxed">
-                  O Encarregado do Grupo Akiyama é a Dra. Cristina Nunes Borges. Informa-se que, em casos de ausências, impedimentos ou vacâncias, a função será exercida pelo Comitê de Segurança da Informação e Privacidade de Dados (CSIP) da Akiyama.
-                </p><br></br><br></br>
-                <p className="text-gray-700 leading-relaxed">
-                  Dúvidas ou solicitações relacionadas à privacidade? Escreva para <b>privacidade@grupoakiyama.com.br</b>.
-                </p>
-              </div>
-
-             
             </div>
           </div>
         </div>
