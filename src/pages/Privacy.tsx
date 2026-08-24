@@ -153,11 +153,53 @@ const Privacy = () => {
                 Os usuários podem gerenciar cookies em seus navegadores e exercer seus direitos relacionados à privacidade por meio dos canais disponibilizados pela empresa. O Grupo Akiyama mantém medidas técnicas e administrativas de proteção e conta com estrutura específica para governança e atendimento de questões relacionadas à privacidade de dados.
               </p>
 
+              <p className="text-gray-700 leading-relaxed">
+                O Encarregado do Grupo Akiyama é a Dra. Cristina Nunes Borges. E-mail para contato:{' '}
+                <a href="mailto:privacidade@grupoakiyama.com.br" className="text-[#7918f9] font-semibold">
+                  privacidade@grupoakiyama.com.br
+                </a>
+                .
+              </p>
+
               <div className="pt-2">
                 <Button
                   className="w-full sm:w-auto"
                   onClick={() => {
                     window.open('/lovable-uploads/PO-028-01-Politica-de-Privacidade-do-Grupo-Akiyama-Sites.pdf', '_blank', 'noopener,noreferrer');
+                  }}
+                >
+                  Acessar política completa
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Política de Segurança da Informação */}
+      <section className="pb-16 px-5">
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-white rounded-lg p-8 shadow-lg">
+            <h2 className="text-black font-bold text-2xl mb-6">Política de Segurança da Informação do Grupo Akiyama</h2>
+
+            <div className="space-y-6">
+              <p className="text-gray-700 leading-relaxed">
+                A Política de Segurança da Informação do Grupo Akiyama estabelece as diretrizes e responsabilidades voltadas à proteção dos ativos de informação e dos dados pessoais sob sua guarda e operação. Seu objetivo é orientar a governança, os processos internos, o uso adequado dos recursos tecnológicos e o cumprimento das normas aplicáveis, fortalecendo a segurança, a confidencialidade, a integridade, a disponibilidade e a conformidade das informações.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed">
+                A política se aplica a todas as empresas do grupo, abrangendo colaboradores, prestadores de serviços, parceiros e demais usuários autorizados. Também define princípios e práticas para prevenção de incidentes, controle de acesso, uso aceitável de tecnologia, proteção contra ameaças cibernéticas, realização de backups, segurança de rede, tratamento de dados pessoais, capacitação contínua e resposta a incidentes.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed">
+                Entre seus principais compromissos estão a promoção de uma cultura de segurança da informação, a responsabilidade compartilhada na proteção dos dados, o monitoramento do uso dos recursos corporativos, a análise contínua de riscos e a adoção de medidas técnicas e administrativas para prevenção, detecção e tratamento de vulnerabilidades. O descumprimento das diretrizes pode resultar em medidas disciplinares e demais consequências cabíveis.
+              </p>
+
+              <div className="pt-2">
+                <Button
+                  className="w-full sm:w-auto"
+                  onClick={() => {
+                    window.open('/lovable-uploads/PO-006-01-Politica-de-Seguranca-da-Informacao-PSI-Grupo-Akiyama.pdf', '_blank', 'noopener,noreferrer');
                   }}
                 >
                   Acessar política completa
