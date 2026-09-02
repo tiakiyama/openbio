@@ -67,16 +67,16 @@ const BankingSolution = () => {
           </div>
 
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6  mx-auto">
+          <div className="flex flex-wrap justify-center gap-8 max-w-3xl mx-auto">
                       {/* Device Image 1 */}
                       <motion.div
-                        className=" rounded-lg items-center justify-center"
+                        className="rounded-lg items-center justify-center w-full max-w-[260px]"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
                         viewport={{ once: true }}
                       >
-                        <div className="relative rounded-lg overflow-hidden h-[360px] md:h-[480px] lg:h-[600px] bg-cover bg-center bg-black shadow" style={{
+                        <div className="relative rounded-lg overflow-hidden h-[240px] md:h-[280px] bg-cover bg-center bg-black shadow" style={{
                           backgroundImage: 'url(/lovable-uploads/card01.png)',
                           backgroundPosition: 'center top',
                           backgroundRepeat: 'no-repeat',
@@ -102,13 +102,13 @@ const BankingSolution = () => {
           
                       {/* Device Image 2 */}
                       <motion.div
-                        className=" rounded-lg items-center justify-center "
+                        className="rounded-lg items-center justify-center w-full max-w-[260px]"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.5 }}
                         viewport={{ once: true }}
                       >
-                        <div className="relative rounded-lg overflow-hidden h-[360px] md:h-[480px] lg:h-[600px] bg-cover bg-center bg-black shadow" style={{
+                        <div className="relative rounded-lg overflow-hidden h-[240px] md:h-[280px] bg-cover bg-center bg-black shadow" style={{
                           backgroundImage: 'url(/lovable-uploads/card02.png)',
                           backgroundPosition: 'center top',
                           backgroundRepeat: 'no-repeat',
