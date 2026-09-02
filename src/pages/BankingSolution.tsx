@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { NavBar } from '@/components/NavBar';
@@ -84,6 +83,21 @@ const BankingSolution = () => {
                           backgroundSize: 'cover'
                         }}></div>
                         <h2 className='text-lg md:text-xl  text-black  font-semibold pt-3 pb-3 rounded-lg mt-6 text-center'>Leitor de Impressão Digital M421</h2>
+                        <div className="flex justify-center mt-2">
+                          <a
+                            href="/lovable-uploads/Lumidigm-M421-Datasheet.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-white bg-gradient-to-r from-[#6C1FD4] to-[#9B4DFF] shadow-md hover:shadow-lg hover:brightness-110 transition-all duration-300"
+                          >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                              <polyline points="7 10 12 15 17 10" />
+                              <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                            Baixar Datasheet
+                          </a>
+                        </div>
                       </motion.div>
           
                       {/* Device Image 2 */}
@@ -101,6 +115,21 @@ const BankingSolution = () => {
                           backgroundSize: 'cover'
                         }}></div>
                          <h2 className='text-lg md:text-xl  text-black  font-semibold pt-3 pb-3 rounded-lg mt-6 text-center'>Leitor de Impressão Digital V521</h2>
+                        <div className="flex justify-center mt-2">
+                          <a
+                            href="/lovable-uploads/Lumidigm-V521-Datasheet.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-white bg-gradient-to-r from-[#6C1FD4] to-[#9B4DFF] shadow-md hover:shadow-lg hover:brightness-110 transition-all duration-300"
+                          >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                              <polyline points="7 10 12 15 17 10" />
+                              <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                            Baixar Datasheet
+                          </a>
+                        </div>
                       </motion.div>
           
                       {/* Device Image 3 */}
